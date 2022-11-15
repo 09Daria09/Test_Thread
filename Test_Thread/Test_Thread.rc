@@ -1,0 +1,122 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 315, 349
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Результат",IDOK,231,321,61,21
+    PUSHBUTTON      "Выход",IDCANCEL,19,323,59,19
+    GROUPBOX        "1. Какой герой мультфильма живет в ананасе под водой?",IDC_STATIC,43,58,224,79
+    CONTROL         "Немо",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,59,77,33,10
+    CONTROL         "Рик и Морти",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,59,95,57,10
+    CONTROL         "Губка Боб Квадратные Штаны",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,59,112,121,10
+    GROUPBOX        "2. Что является национальным животным Шотландии?",IDC_STATIC,45,144,224,79
+    CONTROL         "Лошадь",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,59,166,43,10
+    CONTROL         "Волк",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,59,183,32,10
+    CONTROL         "Единорог",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,59,202,48,10
+    GROUPBOX        "3. Какие эмоции были в фильме ""Головоломка"" ?",IDC_STATIC,43,236,224,79
+    CONTROL         "Страх",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,59,258,37,10
+    CONTROL         "Брезгливость",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,59,287,62,10
+    CONTROL         "Тревога",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,155,287,43,10
+    CONTROL         "Спокойствие",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,155,257,60,10
+    EDITTEXT        IDC_EDIT1,189,24,76,21,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Время :",IDC_STATIC,193,15,39,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | WS_BORDER,15,29,166,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 308
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
